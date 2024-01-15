@@ -25,9 +25,17 @@
               <li><a class="link" href="#contact-section">Контакти</a></li>
             </ul>
           </nav>
-          <button class="modal-btn-open button" type="button">
+          <button class="header__button button modal-btn-open" type="button">
             Замовити дзвінок
           </button>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="20" height="14">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">Close</button>
+          </div>
         </div>
       </div>
     </header>
@@ -52,8 +60,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="traditions-section section" id="traditions-section">
+      </section> 
+      <!-- <section class="traditions-section section" id="traditions-section"> 
         <div class="container">
           <div class="traditions-section__container">
             <div class="traditions-section__content">
@@ -147,7 +155,7 @@
             Формати
           </h2>
           <div class="formats-section__container">
-            <button class="carousel-button" type="button">
+            <button class="carousel-button arrow-icon" type="button">
               <svg width="16" height="16">
                 <use href="./images/icons.svg#icon-arrow"></use>
               </svg>
@@ -285,7 +293,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer"> 
       <div class="container">
         <div class="footer-container">
           <nav class="footer-nav">
@@ -346,7 +354,7 @@
           </address>
         </div>
       </div>
-    </footer>
+    </footer>-->
 
     <div class="backdrop">
       <div class="modal">
@@ -406,6 +414,8 @@
       </div>
     </div>
 
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
+    
   </body>
 </html>
